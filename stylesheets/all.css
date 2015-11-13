@@ -9307,6 +9307,151 @@ button.close {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     border: white 1px solid; }
 
+/* line 1, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_banner.scss */
+.container {
+  text-align: center; }
+
+/* line 4, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_banner.scss */
+.banner {
+  background: url(../images/bg1.jpeg);
+  padding: 120px 0;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* line 11, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_banner.scss */
+.text-center {
+  color: white;
+  font-weight: bold; }
+
+/* line 16, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_banner.scss */
+.form-control {
+  width: 33%;
+  display: inline-block;
+  margin-top: 10px; }
+
+/* line 22, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_banner.scss */
+.img-pop {
+  position: absolute;
+  height: 220px; }
+
+/* line 28, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_banner.scss */
+.btn-primary {
+  font-size: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 30px;
+  background-color: #74D3AE;
+  border-color: #74D3AE; }
+
+/* line 36, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_banner.scss */
+.btn-primary:hover {
+  background-color: #74D3AE;
+  opacity: .9;
+  border-color: #74D3AE; }
+
+/* line 1, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_card.scss */
+.img-responsive {
+  max-height: 220px;
+  display: inline-block; }
+
+/* line 6, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_card.scss */
+.card-description {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  color: white; }
+
+/* line 13, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_card.scss */
+.card-text {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  color: white; }
+
+/* line 20, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_card.scss */
+.img-container {
+  display: inline-block;
+  position: relative; }
+
+/* line 25, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_card.scss */
+.cards {
+  margin-top: 30px; }
+
+/* line 29, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_card.scss */
+.community {
+  margin-top: 30px; }
+
+/* line 1, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_footer.scss */
+#map {
+  width: 100%;
+  height: 200px; }
+
+/* line 6, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_footer.scss */
+.loc {
+  color: #6D6C6C;
+  font-weight: 700;
+  margin-bottom: 30px; }
+
+/* line 13, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_footer.scss */
+.footer {
+  width: 100%;
+  height: 120px;
+  background-color: #333333;
+  padding-top: 30px; }
+
+/* line 20, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_footer.scss */
+.icon {
+  font-size: 45px;
+  color: #CCCCCC; }
+
+/* line 25, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_footer.scss */
+.icon:hover {
+  color: #CCCCCC;
+  opacity: 0.9; }
+
+/* line 30, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_footer.scss */
+.social-link li {
+  padding-right: 15px; }
+
+/* line 34, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_footer.scss */
+.info {
+  color: #CCCCCC; }
+
+/* line 38, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_footer.scss */
+.heart {
+  color: #D23333; }
+
+/* line 1, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_home.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #141414; }
+
+/* line 7, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_home.scss */
+img {
+  height: 30px;
+  margin-right: 5px; }
+
+/* line 12, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_home.scss */
+p {
+  font-family: Exo; }
+
+/* line 16, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_home.scss */
+h1 {
+  font-family: Exo, Arial;
+  font-weight: 700;
+  font-size: 50px;
+  color: #FFFFFF;
+  letter-spacing: 10px; }
+
+/* line 24, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_home.scss */
+h2, h3 {
+  font-family: Exo, Arial;
+  font-weight: 500; }
+
+/* line 1, /Users/michaelmonin/code/Michael3434/middleman/source/stylesheets/pages/_team.scss */
+.img-profile {
+  height: 90px; }
+
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET

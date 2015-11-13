@@ -1,0 +1,30 @@
+@import url("banner.css");
+@import url("footer.css");
+@import url("avatar.css");
+@import url("card.css");
+@import url("feature.css");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #141414;
+}
+
+
+img {
+  height: 30px;
+  margin-right: 5px;
+}
+
+p {
+  font-family: Exo;
+}
+
+h1 {
+  font-family: Exo, Arial;
+  font-weight: 700;
+}
+
+h2, h3 {
+  font-family: Exo, Arial;
+  font-weight: 500;
+}

@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
     <!-- Use title if it's in the page YAML frontmatter -->
     <title>Le Wagon Middleman boilerplate</title>
 
@@ -41,8 +42,7 @@
     <div class="navbar-wagon-item">
       <a href="" class="navbar-wagon-button btn btn-default">Post stuff</a>
     </div>
-
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+    <a class="navbar-wagon-item navbar-wagon-link" href="contact.html">Contact</a>
 
     <a href="" class="navbar-wagon-item navbar-wagon-link">
       <div class="icon-badge-container">
@@ -67,12 +67,146 @@
 
   </div>
 </nav>
-    <div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <a href="http://middlemanapp.com/">Read Online Documentation</a>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+
+     <div class="banner">
+      <div class="text-center">
+        <h1>TIPSTR</h1>
+        <h2>Never forget a place again</h2>
+        <form action="/">
+          <input type="email" class="form-control" placeholder="example@gmail.com">
+        </form>
+        <a href="#" class="btn btn-primary">Get Started</a>
+      </div>
+    </div>
+
+    <div class="information">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <h3>
+              <img alt="mobile" src="images/chat.png" />
+              Find a place</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim debitis, esse pariatur amet voluptatibus explicabo aliquid laboriosam repellat ducimus tenetur molestiae ab, iste odit accusantium nulla a. Ratione, delectus.</p>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <h3>
+              <img alt="mobile" src="images/heart.png" />
+              Add place</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur tempore molestias, enim corporis magni debitis perferendis ipsam! Laudantium nam nobis cumque amet molestias, quam, consequuntur, magnam minus sit molestiae earum!</p>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <h3>
+              <img alt="mobile" src="images/search.png" />
+              Remember place</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque libero error tempore necessitatibus officiis! Aliquid ipsum similique perferendis possimus eaque non id, optio atque nam nulla iusto at delectus laborum.</p>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <h3>
+              <img alt="mobile" src="images/mobile.png" />
+              Custome place</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime illum provident rerum iusto, tempora quasi cupiditate repudiandae quidem, esse doloremque earum neque debitis dolorum odit, labore quae harum blanditiis porro.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row community">
+        <div class="col-xs-4 col-xs-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">
+          <h2>Our community</h2>
+        </div>
+      </div>
+    </div>
+      <div class="row">
+        <div class="cards">
+          <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="img-container">
+              <img alt="mobile" class="img-responsive" src="images/popular1.jpeg" />
+              <div class="card-description">
+                <h3></h3>
+              </div>
+              <div class="card-text">
+                <p>Pauline</p>
+                <p>It's Awesome</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="img-container">
+              <img alt="mobile" class="img-responsive" src="images/popular2.jpeg" />
+              <div class="card-description">
+                <h3></h3>
+              </div>
+              <div class="card-text">
+                <p>Pauline</p>
+                <p>It's Awesome</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="img-container">
+              <img alt="mobile" class="img-responsive" src="images/popular3.jpeg" />
+              <div class="card-description">
+                <h3></h3>
+              </div>
+              <div class="card-text">
+                <p>Pauline</p>
+                <p>It's Awesome</p>
+              </div>
+            </div>
+          </div>
+
+    <div class="loc text-center">
+       <h3>HERE WE ARE</h3>
+    </div>
+    <div id="map"></div>
+    <!-- Cards -->
+
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(44.5403, -78.5463),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+    <!-- Newsletter -->
+
+    <!-- Map -->
+
+    <!-- Footer -->
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+    <div class="footer">
+  <div class="container">
+    <div class="col-xs-12 col-sm-6 col-lg-6">
+      <div class="social-link">
+        <ul class="list-inline">
+          <li><a href="#" class="icon"><i class="fa fa-facebook"></i></a>
+          <li><a href="#" class="icon"><i class="fa fa-twitter"></i></a>
+          <li><a href="#" class="icon"><i class="fa fa-youtube"></i></a>
+        </ul>
+      </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-6">
+        <div class="info">
+          <h3>Made with <i class="fa fa-heart heart"></i> by TIPSTR</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
   </body>
